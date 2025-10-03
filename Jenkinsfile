@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Stage 1: Building the project with Maven... now testing'
+                echo 'Stage 1: Building the project with Maven... '
+                echo 'Hello World'
             }
         }
         stage('Unit and Integration Tests') {
